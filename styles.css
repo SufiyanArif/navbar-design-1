@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url("Rose.jpg");
+    background-size: cover;
+}
+.nav-bar{
+    /* border: 1px solid red; */
+    width: auto;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 60px 0px 60px;
+}
+/* .logo{
+    font-family: "DM Serif Text", serif;
+} */
+.span-1{
+    color: #b4e1dc;
+    font-family: "DM Serif Text", serif;
+
+}
+.span-2{
+    color: #1db29c;
+    font-family: "DM Serif Text", serif;
+
+}
+.nav-bar ul li a{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    transition: 0.3s all;
+    font-size: 15px;
+}
+
+.nav-bar ul li a:hover{
+    color: #b4e1dc;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px #0e3f6a;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+button{
+    border: none;
+    background-color: #b4e1dc;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    border: 5px solid #125a4f;
+    box-shadow: 0px 0px 10px #0e3f6a;
+    box-sizing: border-box;
+    transition: .3s all;
+    color: #212529;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.author{
+    height: 550px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.author p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #b4e1dc;
+    font-size: 20px;
+    margin: 0px 65px 0px 0px;
+}
